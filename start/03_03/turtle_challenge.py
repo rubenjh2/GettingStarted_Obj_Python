@@ -24,7 +24,7 @@ y_pos = np.linspace(-200, 200, players)
 
 # allow for HSL coloring
 turtle.colormode(255)
-
+# CONTINUE WITH SETTING UNIQUE COLORS PER PLAYER
 
 for j in range(players):
     turtles[j].teleport(-450, y_pos[j])
